@@ -1,0 +1,27 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "habr rest api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exeboomer/restapi.git"
+  },
+  "author": "iboomer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exeboomer/restapi/issues"
+  },
+  "homepage": "https://github.com/exeboomer/restapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
